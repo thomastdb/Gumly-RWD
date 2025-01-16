@@ -1,0 +1,542 @@
+body{
+    font-family: 'Inter';
+    margin: 0%;
+}
+#header{
+    position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+  transition: background-color 0.3s ease; 
+  z-index: 1000;
+}
+#header.scrolled {
+    background-color: #86A484;
+  }
+  
+.green-text{
+    color: #86A484;
+}
+.header-div{
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+   width: auto;
+   padding: 0px 20px;
+}
+.header-logo{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 77.45px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    margin-right: auto;
+}
+.shopping-cart-logo{
+    width: 48px;
+    height: 48px;
+    top: 39px;
+    left: 1302px;
+    padding: 2px 2px 4px 2px;
+    gap: 0px;
+    opacity: 0px;
+}
+.gumly-hero {
+    background-image: url("./Hero-Bild.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    height: 900px;
+}
+.gumly-hero-text-cta {
+    position: absolute; /* Absolute Positionierung */
+    left: 100px;
+    top: 50%; /* Vertikale Zentrierung */
+    transform: translateY(-50%); /* Feinabstimmung der vertikalen Position */
+    display: inline-grid;
+    min-width: 300px; /* Minimale Breite festlegen */
+}
+.gumly-hero-text{
+    font-size: 40px;
+    font-weight: 400;
+    text-align: left;
+    color: #FFFFFF;
+}
+.gumly-hero-text-bold{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48.41px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+.shoppen-cta{
+border-radius: 30px;
+border-color: #FFFFFF;
+border-style: none;
+width: 180px;
+height: 50px;
+color: #000000;
+font-weight: 700;
+font-size: 30px;
+cursor: pointer;
+}
+.shoppen-cta:hover{
+    color: #FFFFFF;
+    background-color: #86A484;
+}
+.gumly-hero-introduction {
+    display: flex;
+    justify-content: center;
+    padding-top: 750px;
+    
+}
+.gumly-hero-introduction-div{
+    width: 150px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+}
+.gumly-hero-introduction-text{
+    color: #FFFFFF;
+font-size: 20px;
+font-weight: 500;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.gumly-hero-introduction-logo{
+    width: 70px;
+    height: 70px;
+    align-items: center;
+}
+.gumly-introduction{
+    background-size: cover; 
+    background-position: left; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    height: 400px;
+    background-image: 
+    linear-gradient(to top, rgb(255, 255, 255) 0.1%, rgba(255, 255, 255, 0) 50%), 
+    url("./bild-nr-2.png");
+
+}
+.gumly-introduction-div{
+    display: flex;
+    padding-left: 30%;
+    padding-top: 100px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.gumly-introduction-heading{
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.gumly-introduction-text{
+    padding-top: 20px;
+    font-weight: 200;
+    color: #FFFFFF;
+    width: 300px;
+    font-size: 14px;
+}
+
+.trennlinie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    margin: 20px auto;
+    gap: 15px;
+    padding-top: 50px;
+}
+
+.decorative-line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #000;
+    opacity: 0.3;
+}
+
+.line-text{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+.gumly-carousel-img{
+    width: 350px;
+    border-radius: 30px;
+}
+
+.product-container {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    padding-left: 100px;
+    padding-bottom: 100px;
+  }
+  .product-container::-webkit-scrollbar {
+    display: none;
+  }
+.product-container-div{
+    padding-right: 80px;
+}
+.gumly-facts {
+    background: 
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.96) 0%, rgba(255, 255, 255, 0) 20%),
+        linear-gradient(to top, rgba(255, 255, 255, 0.96) 0%, rgba(255, 255, 255, 0) 20%), 
+        #8BA98D;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 380px;
+}
+.gumly-facts-div{
+    display: grid;
+    justify-items: center;
+}
+
+.chicle{
+    display: flex;
+    justify-content: center;
+
+}
+
+.chicle-img{
+    max-width: 500px;
+border-radius: 15px;
+transform: scaleX(-1);
+}
+
+.chicle-text-section{
+    display:grid;
+    width: 200px;
+    padding-left: 50px;
+}
+.chicle-text-div{
+    display:grid;
+    align-content: center;
+}
+.chicle-heading{
+    font-weight: 600;
+}
+.testimonials{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.persona {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    margin: 60px auto 20px;
+    text-align: center;
+}
+
+.persona-background {
+    position: absolute;
+    top: 40px; /* Angepasst, damit das Bild überlappt */
+    left: 0;
+    width: 100%;
+    height: calc(100% - 40px);
+    background-color: #e8f5e9; /* Hellgrüner Hintergrund */
+    border-radius: 20px;
+    z-index: -1;
+}
+
+.persona-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.persona-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px 20px;
+}
+
+.persona-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.persona a:nth-child(1) {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0;
+    color: #333;
+}
+
+
+.persona a:nth-child(2) {
+    color: #666;
+    font-size: 0.9em;
+    margin: 5px 0 15px;
+}
+
+
+.persona a:nth-child(3) {
+    font-size: 0.95em;
+    line-height: 1.5;
+    color: #444;
+    margin: 0;
+    max-width: 90%;
+}
+
+
+.shop-gumly-div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    align-content: center;
+}
+.shop-gumly-text{
+font-size: 28px;
+font-weight: 600;
+text-align: center;
+padding-bottom: 20px;
+}
+.shop-gumly-cta{
+border-radius: 30px;
+border-style: none;
+width: 350px;
+height: 50px;
+color: #FFFFFF;
+font-weight: 600;
+font-size: 22px;
+background-color: #000000;
+cursor: pointer;
+}
+.shop-gumly-cta:hover{
+    color: #FFFFFF;
+    background-color: #86A484;
+}
+
+footer{
+    background-color: #86A484;
+}
+
+.footer-list-list{
+    display: grid;
+}
+
+.footer-text{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-around;
+}
+
+.footer-list-heading{
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.footer-list-content{
+    padding-bottom: 20px;
+}
+    
+.copyright{
+    display: flex;
+    padding-left: 9%;
+    padding-bottom: 50px;
+}
+
+
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+    .header-logo {
+        font-size: 36px;
+        line-height: 58px;
+    }
+    .shopping-cart-logo {
+        width: 30px;
+        height: 30px;
+    }
+    .gumly-hero-text {
+        font-size: 32px;
+    }
+
+    .gumly-hero-text-bold {
+        font-size: 32px;
+    }
+
+    .gumly-introduction{
+        height: 300px;
+    }
+
+    .gumly-introduction-div {
+        padding-top: 80px;
+    }
+
+    .chicle {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .chicle-text-section{
+        padding-left: 0;
+        width: fit-content;
+    }
+    .chicle-text-div {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .chicle-img {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .testimonials {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .persona {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .gumly-hero-introduction{
+        display: none;
+    }
+
+    .gumly-hero {
+        background-image: url("./Hero-Bild\ V2.png");
+        min-height: 600px; /* Angepasste minimale Höhe für Mobile */
+    }
+
+    .gumly-hero-text-cta {
+        left: 50%; /* Horizontale Zentrierung */
+        transform: translate(-50%, -50%); /* Zentriert in beide Richtungen */
+        text-align: center;
+        top: 70%; /* Weiter unten auf mobilen Geräten */
+        max-width: 400px; /* Maximale Breite */
+        padding-top: 200px;
+        justify-items: center;
+    }
+    .gumly-hero-text{
+        text-align: center;
+    }
+    .gumly-hero-introduction {
+        bottom: 50px; /* Angepasster Abstand für Mobile */
+    }
+
+    .gumly-hero-introduction-div {
+        margin-bottom: 30px;
+    }
+    .gumly-introduction{
+        height: 250px;
+    }
+
+    .gumly-introduction-div {
+        padding-top: 50px;
+    }
+
+
+    .gumly-facts {
+        flex-wrap: wrap;
+        height: 300%;
+        padding: 40px 20px;
+    }
+
+    .gumly-facts-div {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .footer-text {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-list {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-logo {
+        font-size: 28px;
+    }
+
+    .gumly-hero {
+        min-height: 500px; /* Noch kleinere minimale Höhe für sehr kleine Geräte */
+    }
+
+    .gumly-hero-text-cta {
+        width: 90%;
+    }
+
+    .gumly-hero-text,
+    .gumly-hero-text-bold {
+        font-size: 24px;
+    }
+
+    .shoppen-cta {
+        width: 140px;
+        font-size: 24px;
+    }
+
+    .gumly-facts-div {
+        width: 100%;
+    }
+
+    .gumly-introduction {
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 500px;
+        display: grid;
+        justify-content: center;
+        background-image: linear-gradient(to top, rgb(255, 255, 255) 0.1%, rgba(255, 255, 255, 0) 50%), url(./Bild2-Mobile.png);
+    }
+    .gumly-introduction-div {
+        padding-left: 0;
+    }
+
+    .product-container {
+        padding-left: 20px;
+        padding-bottom: 50px;
+    }
+
+    .product-container-div{
+        padding-right: 30px;
+    }
+
+    .gumly-carousel-img {
+        width: 280px;
+    }
+
+    .shop-gumly-cta {
+        width: 280px;
+        font-size: 18px;
+    }
+
+    .line-text{
+        width: 200px;
+    }
+}
